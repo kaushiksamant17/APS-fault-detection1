@@ -16,7 +16,7 @@ if __name__ == "__main__":
     df = pd.read_csv(DATA_FILE_PATH)
     print(f"rows and columns: {df.shape}")
 
-#convert dataframe to json so that we can dump these records in mongo db
+#CCnvert dataframe to json so that we can dump these records in mongo db
     df.reset_index(drop = True , inplace = True)
 
 #convert the dataframe to json file and store in json_record
