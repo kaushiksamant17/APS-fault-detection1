@@ -33,3 +33,7 @@ class ModelEvaluationArtifact:
 class ModelPusherArtifact:
     pusher_model_dir:str 
     saved_model_dir:str
+
+
+
+

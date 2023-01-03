@@ -51,6 +51,3 @@ class ModelPusher:
         except Exception as e:
             raise SensorException(e, sys)
 
-
-        
-

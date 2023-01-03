@@ -3,9 +3,8 @@ from sensor.entity.config_entity import TRANSFORMER_OBJECT_FILE_NAME,MODEL_FILE_
 from glob import glob
 from typing import Optional
 import os
-class ModelResolver:
 
-    
+class ModelResolver:
     
     def __init__(self,model_registry:str = "saved_models",
                 transformer_dir_name="transformer",
@@ -89,15 +88,9 @@ class ModelResolver:
         except Exception as e:
             raise e
 
-
     
 
 
 
 
-
-class Predictor:
-
-    def __init__(self,model_resolver:ModelResolver):
-        self.model_resolver=model_resolver
 
